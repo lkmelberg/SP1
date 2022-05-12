@@ -1,0 +1,133 @@
+/* global media query - for individual media queries please see individual css files */
+@media screen and (min-width: 550px) {
+  nav li {
+    font-size: 22px;
+    padding: 30px 50px;
+  }
+  .breadcrumb {
+    font-size: 18px;
+  }
+  .campaign {
+    font-size: 22px;
+  }
+
+  .search {
+    height: 30px;
+    font-size: 18px;
+    width: 100%;
+  }
+  .main_content_text {
+    margin: 10px 5px;
+    font-size: 22px;
+  }
+  .button {
+    border-width: 3px;
+    font-size: 18px;
+  }
+  .directory a {
+    font-size: 15px;
+    margin: 3px 0px;
+  }
+  .footer_middle {
+    font-size: 12px;
+  }
+  .fa-brands {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 700px) {
+  /* Header */
+  .header_top :nth-child(1) {
+    order: 1;
+  }
+  .header :nth-child(2) {
+    order: 3;
+  }
+  .header :nth-child(3) {
+    order: 2;
+  }
+  .header :nth-child(4) {
+    order: 4;
+  }
+  .fa-solid {
+    padding-top: 15px;
+    font-size: 8vw;
+  }
+  .header label {
+    display: none;
+  }
+  .ticket_text {
+    display: block;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .header_logo {
+    padding-top: 15px;
+    margin-left: 10px;
+    max-width: 30%;
+  }
+  .header_search {
+    padding-top: 40px;
+  }
+  .header_top {
+    gap: 20px;
+    justify-content: space-around;
+    align-content: baseline;
+    margin-bottom: 30px;
+  }
+  .header_nav {
+    flex-basis: 100%;
+    align-content: center;
+  }
+  .header_nav_items ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .header_nav_items {
+    display: inline-block;
+    margin: 0%;
+    width: 100vw;
+    right: 0%;
+    padding: 5px 0px;
+  }
+  nav li {
+    padding: 5px 5%;
+  }
+  nav .current {
+    border-radius: 10px;
+  }
+
+  .header_campaign {
+    display: none;
+  }
+  .current a {
+    border-bottom: none;
+  }
+
+  .header_breadcrumb {
+    margin-top: 20px;
+  }
+  .breadcrumb {
+    font-size: 18;
+    text-align: start;
+    padding: 0%;
+    margin: 5px 40px;
+  }
+
+  .button {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fa-ticket {
+    font-size: 5vw;
+  }
+  .header_logo {
+    max-width: 20%;
+  }
+  .main_content_text {
+    margin: 30px 5px;
+  }
+}

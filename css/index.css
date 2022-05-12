@@ -1,0 +1,23 @@
+.home {
+  background-image: url("../images/images_m/index_bg_m.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  min-height: 80vh;
+}
+.home_cta {
+  margin-top: 200px;
+}
+/* media query  */
+
+@media screen and (min-width: 700px) {
+  .home {
+    background-image: url("../images/images_dt/index_bg_dt.jpg");
+    background-position-x: top;
+    min-height: 100vh;
+  }
+  .home_cta {
+    margin-top: 400px;
+  }
+}
