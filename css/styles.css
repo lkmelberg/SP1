@@ -1,0 +1,160 @@
+/* Global styles- for individual styles (main section) see individual css file */
+
+:root,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+main,
+footer {
+  padding: 20px;
+}
+
+a,
+p,
+ul {
+  font-family: "roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  color: #d2f0fa;
+}
+
+h1 {
+  font-family: "baskerville";
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Gridarea */
+header {
+  grid-area: header;
+  background-color: #000;
+}
+main {
+  grid-area: main;
+  background-color: #fff;
+  /* change white later */
+}
+footer {
+  grid-area: footer;
+  background-color: #d2f0fa;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+/* Header  */
+
+/* GRID  */
+.header_logo {
+  grid-area: logo;
+  max-width: 85%;
+}
+.header_ticket {
+  grid-area: ticket;
+}
+.header_search {
+  grid-area: search;
+  max-width: 80%;
+}
+.header_nav {
+  grid-area: nav;
+}
+.header_breadcrumb {
+  grid-area: breadcrumb;
+}
+.header_campaign {
+  grid-area: campaign;
+}
+.header {
+  padding: 20px;
+  display: grid;
+  grid-template-areas:
+    "logo ticket"
+    "search nav"
+    "breadcrumb breadcrumb"
+    "campaign campaign";
+}
+.header div {
+  display: inline-block;
+  text-align: center;
+  justify-content: baseline;
+}
+.fa-ticket {
+  color: #ff82a5;
+}
+.fa-solid {
+  font-size: 15vw;
+}
+
+.logo_image {
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 5%;
+}
+.search {
+  margin-top: 5%;
+  width: 85%;
+  height: 20px;
+  background-color: #000;
+  border: 2px solid #d2f0fa;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* hamburger menu */
+.fa-bars {
+  color: #d2f0fa;
+}
+
+.header #hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+nav {
+  display: none;
+  position: absolute;
+  top: inherit;
+  background: #d2f0fa;
+  z-index: 1000;
+  right: 1%;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+nav li a {
+  color: #000;
+  border-bottom: hidden;
+  width: auto;
+}
+
+.header_nav_items {
+  display: none;
+}
+.header_nav_items ul {
+  padding: 0%;
+  margin: 0%;
+}
+
+nav .current {
+  background-color: #000;
+  border: 1px solid #d2f0fa;
+}
+.current a {
+  color: #d2f0fa;
+  border-bottom: 1px solid #d2f0fa;
+}

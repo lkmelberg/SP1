@@ -1,0 +1,51 @@
+css
+
+/* Flex
+
+.header {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  top: 100px;
+  gap: 10px 50px;
+}
+
+.header_logo,
+.header_ticket,
+.header_search,
+.header_nav {
+  display: inline-block;
+  text-align: center;
+}
+.header_logo,
+.header_search {
+  flex-grow: 1.5;
+}
+
+.header_ticket,
+.header_nav {
+  flex-grow: 1;
+}
+
+.header_breadcrumb,
+.header_campaign {
+  flex-basis: 100%;
+}
+.header_logo {
+  max-width: 60%;
+}
+.logo_image {
+  width: 100%;
+  margin: 10px;
+}
+.header_ticket_icon {
+  margin: 10px;
+}
+.fa-bars {
+  margin: 10px;
+}
+.search {
+  max-height: 10vh;
+} */
