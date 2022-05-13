@@ -193,18 +193,10 @@
   .img_text {
     height: 75vh;
   }
-  /* .img_text_left {
-    margin-left: 60vw;
-  }
-  .img_text_right {
-    margin-left: 60vw;
-  } */
   .pink_header {
-    font-size: 40px;
+    font-size: 50px;
   }
-  .pink_header_small,
-  .p_text,
-  .form_item label {
-    font-size: 30px;
+  .p_text {
+    font-size: 40px;
   }
 }
