@@ -1,0 +1,30 @@
+.exhibitions_ex1 {
+  background-image: url("../images/images_m/ex1_m.jpg");
+}
+.exhibitions_ex2 {
+  background-image: url("../images/images_m/ex2_m.jpg");
+}
+.exhibitions_ex3 {
+  background-image: url("../images/images_m/ex3_m.jpg");
+}
+.exhibitions_ex4 {
+  background-image: url("../images/images_m/ex4_m.jpg");
+}
+.main_content {
+  gap: 0px;
+}
+
+@media screen and (min-width: 700px) {
+  .exhibitions_ex1 {
+    background-image: url("../images/images_dt/ex1_dt.jpg");
+  }
+  .exhibitions_ex2 {
+    background-image: url("../images/images_dt/ex2_dt.jpg");
+  }
+  .exhibitions_ex3 {
+    background-image: url("../images/images_dt/ex3_dt.jpg");
+  }
+  .exhibitions_ex4 {
+    background-image: url("../images/images_dt/ex4_dt.jpg");
+  }
+}

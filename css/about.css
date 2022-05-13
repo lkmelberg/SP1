@@ -1,0 +1,24 @@
+.about_mission {
+  background-image: url("../images/images_m/mission_m.jpg");
+}
+.about_story {
+  background-image: url("../images/images_m/story_m.jpg");
+}
+.about_organization {
+  background-image: url("../images/images_m/organization_m.jpg");
+}
+.main_content {
+  gap: 0px;
+}
+
+@media screen and (min-width: 700px) {
+  .about_mission {
+    background-image: url("../images/images_dt/mission_dt.jpg");
+  }
+  .about_story {
+    background-image: url("../images/images_dt/story_dt.jpg");
+  }
+  .about_organization {
+    background-image: url("../images/images_dt/organization_dt.jpg");
+  }
+}
