@@ -97,8 +97,9 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 10px;
+  align-items: flex-end;
 }
 .fa-ticket {
   color: #ff82a5;
@@ -276,7 +277,6 @@ nav .current {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70vw;
 }
 /* main img */
 .content_img_bg {

@@ -138,73 +138,75 @@
                         </div>
                     </div>
                 </div>
-                <div class="ticket_divider"></div>
-                <div class="ticket_form ticket_contact">
-                    <h2 class="pink_header">contact details</h2>
-                    <div class="ticket_contact_form">
-                        <form class="contact_form_fields" method="post" action="contact.php">
-                            <div class="form_item contact_form_item contact_form_name">
-                                <label for="name" class="contact_form_item">Name:</label>
-                                <div class="contact_form_input">
-                                    <input type="text" id="name" name="name" class="contact_form_name_input item_form"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="form_item contact_form_item contact_form_phone">
-                                <label for="tel" class="contact_form_item">Phone:</label>
-                                <div class="contact_form_input">
-                                    <input type="tel" id="tel" name="tel" class="contact_form_email_input item_form"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="form_item contact_form_item contact_form_email">
-                                <label for="email" class="contact_form_item">Email:</label>
-                                <div class="contact_form_input">
-                                    <input type="email" id="email" name="email"
-                                        class="contact_form_email_input item_form" required>
-                                </div>
-                            </div>
-
-
-                        </form>
-                    </div>
-                </div>
-                <div class="ticket_divider"></div>
-                <div class="ticket_form ticket_paymemt">
-                    <h2 class="pink_header">payment details</h2>
-                    <div class="ticket_payment_form">
-                        <form class="contact_form_fields payment_fields" method="post" action="contact.php">
-                            <div class="form_item contact_form_item contact_form_name payment_name">
-                                <label for="name" class="contact_form_item">Name on card:</label>
-                                <div class="contact_form_input">
-                                    <input type="text" id="name" name="name" class="contact_form_name_input item_form"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="form_item contact_form_item contact_form_cnum payment_cnum">
-                                <label for="cnum" class="contact_form_item">Card number:</label>
-                                <div class="contact_form_input">
-                                    <input type="number" id="cnum" name="cnum" class="contact_form_cnum_input item_form"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="payment_form_bottom">
-                                <div class="form_item contact_form_item contact_form_exp payment_exp">
-                                    <label for="exp" class="contact_form_item">Expiration date:</label>
+                <div class="ticket_form_container">
+                    <div class="ticket_divider"></div>
+                    <div class="ticket_form ticket_contact">
+                        <h2 class="pink_header">contact details</h2>
+                        <div class="ticket_contact_form">
+                            <form class="contact_form_fields" method="post" action="contact.php">
+                                <div class="form_item contact_form_item contact_form_name">
+                                    <label for="name" class="contact_form_item">Name:</label>
                                     <div class="contact_form_input">
-                                        <input type="text" id="exp" name="exp" class="contact_form_exp_input item_form"
+                                        <input type="text" id="name" name="name"
+                                            class="contact_form_name_input item_form" required>
+                                    </div>
+                                </div>
+                                <div class="form_item contact_form_item contact_form_phone">
+                                    <label for="tel" class="contact_form_item">Phone:</label>
+                                    <div class="contact_form_input">
+                                        <input type="tel" id="tel" name="tel" class="contact_form_email_input item_form"
                                             required>
                                     </div>
                                 </div>
-                                <div class="form_item contact_form_item contact_form_sec payment_sec">
-                                    <label for="sec" class="contact_form_item">Security code:</label>
+                                <div class="form_item contact_form_item contact_form_email">
+                                    <label for="email" class="contact_form_item">Email:</label>
                                     <div class="contact_form_input">
-                                        <input type="number" id="sec" name="sec"
-                                            class="contact_form_sec_input item_form" required>
+                                        <input type="email" id="email" name="email"
+                                            class="contact_form_email_input item_form" required>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="ticket_divider"></div>
+                    <div class="ticket_form ticket_paymemt">
+                        <h2 class="pink_header">payment details</h2>
+                        <div class="ticket_payment_form">
+                            <form class="contact_form_fields payment_fields" method="post" action="contact.php">
+                                <div class="form_item contact_form_item contact_form_name payment_name">
+                                    <label for="name" class="contact_form_item">Name on card:</label>
+                                    <div class="contact_form_input">
+                                        <input type="text" id="name" name="name"
+                                            class="contact_form_name_input item_form" required>
+                                    </div>
+                                </div>
+                                <div class="form_item contact_form_item contact_form_cnum payment_cnum">
+                                    <label for="cnum" class="contact_form_item">Card number:</label>
+                                    <div class="contact_form_input">
+                                        <input type="number" id="cnum" name="cnum"
+                                            class="contact_form_cnum_input item_form" required>
+                                    </div>
+                                </div>
+                                <div class="payment_form_bottom">
+                                    <div class="form_item contact_form_item contact_form_exp payment_exp">
+                                        <label for="exp" class="contact_form_item">Expiration date:</label>
+                                        <div class="contact_form_input">
+                                            <input type="text" id="exp" name="exp"
+                                                class="contact_form_exp_input item_form" required>
+                                        </div>
+                                    </div>
+                                    <div class="form_item contact_form_item contact_form_sec payment_sec">
+                                        <label for="sec" class="contact_form_item">Security code:</label>
+                                        <div class="contact_form_input">
+                                            <input type="number" id="sec" name="sec"
+                                                class="contact_form_sec_input item_form" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
