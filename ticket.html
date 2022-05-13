@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The Community Science Museum Website. Buy Tickets Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/tickets.css" rel="stylesheet" />
+    <link href="css/mediaquery.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/cf5488008f.js" crossorigin="anonymous"></script>
+    <title>TCSM | Tickets</title>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <div class="header_top">
+                <div class="header_logo">
+                    <a href="index.html"><img src="images/logo/logo_dark_type_1000.png" alt="TCSM logo"
+                            class="logo_image"></a>
+                </div>
+                <div class="header_ticket">
+                    <a href="ticket.html"><i class="fa-solid fa-ticket header_ticket_icon" alt="buy tickets icon"></i>
+                    </a>
+                    <p class="ticket_text">TICKETS</p>
+                </div>
+
+
+                <div class="header_search">
+                    <input type="text" placeholder="Search.." class="search">
+                </div>
+                <div class="header_nav">
+                    <label for="hamburger-menu"><i class="fa-solid fa-bars "></i></label>
+                    <input type="checkbox" id="hamburger-menu" />
+                    <nav class="header_nav_items">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="exhibitions.html">EXHIBITIONS</a></li>
+                            <li><a href="about.html">ABOUT US</a></li>
+                            <li><a href="contact.html">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header_breadcrumb">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>/</li>
+                    <li class="current"><a href="ticket.html">Tickets</a></li>
+                </ul>
+            </div>
+            <div class="header_campaign">
+                <a href="ticket.html" class="campaign">BUY TICKETS NOW!</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="ticket main_content">
+            <div class="ticket_header main_content_text">
+                <h1>buy tickets</h1>
+                <div>
+                    <label for="toggle" class="ticket_toggle">ⓘ Ticket Info</label>
+                    <input type="checkbox" id="toggle" class="visually_hidden">
+                    <div class="ticket_toggle_info"></div>
+                </div>
+            </div>
+            <div class="ticket_container">
+                <div class="ticket_selection">
+                    <div class="ticket_input input_1">
+                        <div class="ticket_type">
+                            <p class="ticket_type_top">Toddler</p>
+                            <p class="ticket_type_bottom">(Ages 0-3)</p>
+                        </div>
+                        <div class="ticket_price">Free</div>
+                        <div class="ticket_qty">
+                            <p class="ticket_minus">-</p>
+                            <p class="ticket_number">1</p>
+                            <p class="ticket_plus">+</p>
+                        </div>
+                    </div>
+                    <div class="ticket_input input_2">
+                        <div class="ticket_type">
+                            <p class="ticket_type_top">Child</p>
+                            <p class="ticket_type_bottom">(Ages 4-12)</p>
+                        </div>
+                        <div class="ticket_price">$20</div>
+                        <div class="ticket_qty">
+                            <p class="ticket_minus">-</p>
+                            <p class="ticket_number">0</p>
+                            <p class="ticket_plus">+</p>
+                        </div>
+                    </div>
+                    <div class="ticket_input input_3">
+                        <div class="ticket_type">
+                            <p class="ticket_type_top">Youth</p>
+                            <p class="ticket_type_bottom">(Ages 13-17)</p>
+                        </div>
+                        <div class="ticket_price">$30</div>
+                        <div class="ticket_qty">
+                            <p class="ticket_minus">-</p>
+                            <p class="ticket_number">2</p>
+                            <p class="ticket_plus">+</p>
+                        </div>
+                    </div>
+                    <div class="ticket_input input_4">
+                        <div class="ticket_type">
+                            <p class="ticket_type_top">Adult </p>
+                            <p class="ticket_type_bottom">(Ages 18-64)</p>
+                        </div>
+                        <div class="ticket_price">$50</div>
+                        <div class="ticket_qty">
+                            <p class="ticket_minus">-</p>
+                            <p class="ticket_number">1</p>
+                            <p class="ticket_plus">+</p>
+                        </div>
+                    </div>
+                    <div class="ticket_input input_5">
+                        <div class="ticket_type">
+                            <p class="ticket_type_top">Senior</p>
+                            <p class="ticket_type_bottom">(Ages 65+)</p>
+                        </div>
+                        <div class="ticket_price">$30</div>
+                        <div class="ticket_qty">
+                            <p class="ticket_minus">-</p>
+                            <p class="ticket_number">0</p>
+                            <p class="ticket_plus">+</p>
+                        </div>
+                    </div>
+                    <div class="ticket_input input_total">
+                        <div class="ticket_type">
+                            <p class="ticket_type_top">Total</p>
+                        </div>
+                        <div class="ticket_price">$110</div>
+                        <div class="ticket_qty">
+                            <p class="ticket_number">4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket_divider"></div>
+                <div class="ticket_form ticket_contact">
+                    <h2 class="pink_header">contact details</h2>
+                    <div class="ticket_contact_form">
+                        <form class="contact_form_fields" method="post" action="contact.php">
+                            <div class="form_item contact_form_item contact_form_name">
+                                <label for="name" class="contact_form_item">Name:</label>
+                                <div class="contact_form_input">
+                                    <input type="text" id="name" name="name" class="contact_form_name_input item_form"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form_item contact_form_item contact_form_phone">
+                                <label for="tel" class="contact_form_item">Phone:</label>
+                                <div class="contact_form_input">
+                                    <input type="tel" id="tel" name="tel" class="contact_form_email_input item_form"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form_item contact_form_item contact_form_email">
+                                <label for="email" class="contact_form_item">Email:</label>
+                                <div class="contact_form_input">
+                                    <input type="email" id="email" name="email"
+                                        class="contact_form_email_input item_form" required>
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+                <div class="ticket_divider"></div>
+                <div class="ticket_form ticket_paymemt">
+                    <h2 class="pink_header">payment details</h2>
+                    <div class="ticket_payment_form">
+                        <form class="contact_form_fields payment_fields" method="post" action="contact.php">
+                            <div class="form_item contact_form_item contact_form_name payment_name">
+                                <label for="name" class="contact_form_item">Name on card:</label>
+                                <div class="contact_form_input">
+                                    <input type="text" id="name" name="name" class="contact_form_name_input item_form"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form_item contact_form_item contact_form_cnum payment_cnum">
+                                <label for="cnum" class="contact_form_item">Card number:</label>
+                                <div class="contact_form_input">
+                                    <input type="number" id="cnum" name="cnum" class="contact_form_cnum_input item_form"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="payment_form_bottom">
+                                <div class="form_item contact_form_item contact_form_exp payment_exp">
+                                    <label for="exp" class="contact_form_item">Expiration date:</label>
+                                    <div class="contact_form_input">
+                                        <input type="text" id="exp" name="exp" class="contact_form_exp_input item_form"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="form_item contact_form_item contact_form_sec payment_sec">
+                                    <label for="sec" class="contact_form_item">Security code:</label>
+                                    <div class="contact_form_input">
+                                        <input type="number" id="sec" name="sec"
+                                            class="contact_form_sec_input item_form" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_form_item contact_form_submit">
+                <button type="submit" class="contact_form_submit_button button">CONFIRM PURCHASE
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="footer_left">
+                <div class="directory">
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="legal/privacy.html">Privacy Policy</a></li>
+                        <li><a href="legal/terms.html">Terms & Conditions</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_right">
+                <div class="socials">
+                    <ul>
+                        <div class="socials_top">
+                            <li><a href="https://wwww.instagram.com/rainydays"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                            </li>
+
+                            <li><a href="https://wwww.facebook.com/rainydays"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                        </div>
+                        <div class="socials_bottom">
+                            <li><a href="https://wwww.twitter.com/rainydays"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://wwww.youtube.com/rainydays"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_middle">
+                <p class="copyright">© 2022 The Community Science Museum, San Francisco, CA, USA. All Rights Reserved.
+                </p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
