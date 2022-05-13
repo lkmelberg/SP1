@@ -15,7 +15,7 @@ footer {
 a,
 p,
 ul {
-  font-family: "roboto", sans-serif;
+  font-family: "helvetica", sans-serif;
   text-decoration: none;
   list-style: none;
 }
@@ -24,9 +24,19 @@ a {
 }
 
 h1 {
+  font-size: 30px;
+  margin-top: 40px;
+}
+.main_content_text {
   font-family: "baskerville";
   text-transform: uppercase;
   font-style: italic;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  color: #faf9ec;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* Gridarea */
@@ -36,9 +46,11 @@ header {
 }
 main {
   grid-area: main;
-  background-color: #fff;
-  /* change white later */
+  background-color: #000;
 }
+
+/* change white later */
+
 footer {
   grid-area: footer;
   background-color: #d2f0fa;
@@ -96,7 +108,6 @@ body {
 }
 .ticket_text {
   color: #d2f0fa;
-
   display: none;
 }
 
@@ -180,9 +191,19 @@ nav .current {
 }
 .breadcrumb {
   font-size: smaller;
-  text-align: start;
   padding: 0%;
   margin: 0% 20px;
+}
+.breadcrumb ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4px;
+  text-align: start;
+}
+.breadcrumb li {
+  display: inline-block;
+  color: #d2f0fa;
 }
 .header_campaign {
   text-align: center;
@@ -196,17 +217,58 @@ nav .current {
 }
 
 /* main section */
+
 .main_content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
-.main_content_text {
-  margin: 5px 5px;
-  display: flex;
-  color: #faf9ec;
+/* main text */
+.pink_header {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  color: #ff82a5;
+  text-transform: capitalize;
+  margin: 20px 0px 15px 0px;
+}
+.pink_header_small {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: 100;
   font-size: 15px;
-  text-align: center;
+  color: #ff82a5;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+.p_text {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #d2f0fa;
+  margin: 5px 0px;
+}
+/* main form */
+.form_item {
+  margin-top: 10px;
+}
+.form_item label {
+  color: #d2f0fa;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: lighter;
+}
+.item_form {
+  background-color: #d2f0fa;
+  border: #d2f0fa;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+.contact_form_fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
 }
 
 /* footer */
@@ -276,5 +338,5 @@ nav .current {
   text-transform: uppercase;
   border-radius: 10px;
   display: flex;
-  max-width: 80%;
+  max-width: 100%;
 }

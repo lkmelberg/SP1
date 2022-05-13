@@ -1,5 +1,11 @@
 /* global media query - for individual media queries please see individual css files */
 @media screen and (min-width: 550px) {
+  /* header */
+  .search {
+    height: 30px;
+    font-size: 18px;
+    width: 100%;
+  }
   nav li {
     font-size: 22px;
     padding: 30px 50px;
@@ -11,19 +17,7 @@
     font-size: 22px;
   }
 
-  .search {
-    height: 30px;
-    font-size: 18px;
-    width: 100%;
-  }
-  .main_content_text {
-    margin: 10px 5px;
-    font-size: 22px;
-  }
-  .button {
-    border-width: 3px;
-    font-size: 18px;
-  }
+  /* footer */
   .directory a {
     font-size: 15px;
     margin: 3px 0px;
@@ -33,6 +27,31 @@
   }
   .fa-brands {
     font-size: 40px;
+  }
+
+  /* button */
+  .button {
+    border-width: 3px;
+    font-size: 18px;
+  }
+
+  /* main */
+  .main_content_text,
+  h1 {
+    margin-top: 50px;
+    font-size: 33px;
+  }
+
+  .pink_header {
+    font-size: 30px;
+  }
+  .pink_header_small,
+  .p_text,
+  .form_item label {
+    font-size: 20px;
+  }
+  .item_form {
+    width: 300px;
   }
 }
 @media screen and (min-width: 700px) {
@@ -53,13 +72,13 @@
     padding-top: 15px;
     font-size: 8vw;
   }
-  .header label {
-    display: none;
-  }
   .ticket_text {
     display: block;
     font-size: 22px;
     padding-top: 20px;
+  }
+  .header label {
+    display: none;
   }
   .header_logo {
     padding-top: 15px;
@@ -93,21 +112,21 @@
     padding: 5px 0px;
   }
   nav li {
+    font-size: 20px;
     padding: 5px 5%;
   }
   nav .current {
     border-radius: 10px;
   }
-
   .header_campaign {
     display: none;
   }
-  .current a {
+  .header_nav_items .current a {
     border-bottom: none;
   }
 
-  .header_breadcrumb {
-    margin-top: 20px;
+  .header_breadcrumb ul {
+    margin-top: 30px;
   }
   .breadcrumb {
     font-size: 18;
@@ -115,19 +134,49 @@
     padding: 0%;
     margin: 5px 40px;
   }
+  /* main */
+  .main_content_text,
+  h1 {
+    font-size: 40px;
+  }
 
+  .pink_header {
+    font-size: 35px;
+  }
+  .pink_header_small,
+  .p_text,
+  .form_item label {
+    font-size: 25px;
+  }
+  .item_form {
+    width: 400px;
+    min-height: 25px;
+  }
+  /* footer */
+  .directory a {
+    font-size: 20px;
+    margin: 6px 0px;
+  }
+  .footer_middle {
+    font-size: 18px;
+  }
+
+  /* button */
   .button {
-    font-size: 22px;
+    font-size: 30px;
   }
 }
+
 @media screen and (min-width: 1200px) {
-  .fa-ticket {
-    font-size: 5vw;
-  }
+  /* header */
   .header_logo {
     max-width: 20%;
   }
-  .main_content_text {
-    margin: 30px 5px;
+  .fa-ticket {
+    font-size: 5vw;
+  }
+  nav li {
+    font-size: 25px;
+    padding: 10px 5%;
   }
 }
