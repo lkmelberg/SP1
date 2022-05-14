@@ -32,6 +32,10 @@
   .fa-brands {
     font-size: 40px;
   }
+  .socials {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 
   /* button */
   .button {
