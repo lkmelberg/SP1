@@ -39,6 +39,12 @@ h1 {
   flex-wrap: nowrap;
   max-width: fit-content;
 }
+.ticket_container_confirm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 60vw;
+}
 
 /* divider */
 
@@ -66,6 +72,12 @@ h1 {
   padding: 10px 25px 10px 0px;
   border-bottom: none;
 }
+.input_total_confirm {
+  gap: 30px;
+  justify-content: space-between;
+  padding: 15px 0% 15px 12px;
+  border-bottom: none;
+}
 
 /* type */
 .ticket_type {
@@ -82,6 +94,14 @@ h1 {
 .ticket_type_bottom {
   font-size: 12px;
   margin: 0%;
+}
+h2 {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0%;
+  font-weight: 100;
+  color: #d2f0fa;
+  text-align: center;
 }
 /* price */
 .ticket_price {
@@ -189,7 +209,16 @@ h1 {
   .ticket_number {
     font-size: 18px;
   }
+
+  /* container */
+  .ticket_container_confirm {
+    max-width: 500px;
+  }
+  h2 {
+    font-size: 25px;
+  }
 }
+
 @media screen and (min-width: 1200px) {
   .ticket_divider {
     display: none;

@@ -69,25 +69,20 @@
     order: 4;
   }
   .fa-solid {
-    padding-top: 15px;
     font-size: 8vw;
   }
   .ticket_text {
     display: block;
     font-size: 22px;
-    padding-top: 20px;
   }
   .header label {
     display: none;
   }
   .header_logo {
-    padding-top: 15px;
     margin-left: 10px;
     max-width: 30%;
   }
-  .header_search {
-    padding-top: 40px;
-  }
+
   .header_top {
     gap: 20px;
     justify-content: space-around;
@@ -140,7 +135,9 @@
     font-size: 40px;
     margin-top: 30px;
   }
-
+  .main_content_text p {
+    font-size: 18px;
+  }
   .pink_header {
     font-size: 35px;
   }
