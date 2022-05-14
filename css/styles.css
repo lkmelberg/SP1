@@ -117,7 +117,7 @@ body {
 .header_search {
   max-width: 70vw;
   display: flex;
-  margin-left: 50px;
+  margin-left: 5px;
 }
 .search {
   display: flex;
@@ -414,6 +414,6 @@ nav a:hover {
   color: #ff82a5;
 }
 
-.hide {
+/* .hide {
   display: none;
-}
+} */
