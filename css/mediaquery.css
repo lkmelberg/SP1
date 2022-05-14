@@ -16,10 +16,6 @@
   .campaign {
     font-size: 22px;
   }
-  .fa-magnifying-glass {
-    font-size: 18px;
-    margin: 18px 0px 0px 155px;
-  }
 
   /* footer */
   .directory a {
@@ -90,10 +86,7 @@
     margin-left: 10px;
     max-width: 30%;
   }
-  .fa-magnifying-glass {
-    font-size: 20px;
-    margin: 16px 0px 0px 155px;
-  }
+
   .header_top {
     gap: 20px;
     justify-content: space-around;

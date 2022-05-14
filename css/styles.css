@@ -400,9 +400,7 @@ nav a:hover {
   border-bottom: 2px solid #ff82a5;
 }
 /* search */
-.fa-magnifying-glass {
-  display: none;
-}
+
 ::placeholder {
   font-family: "helvetica", sans-serif;
   font-size: 15px;
