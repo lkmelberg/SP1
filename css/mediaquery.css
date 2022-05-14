@@ -4,8 +4,13 @@
   .search {
     height: 30px;
     font-size: 18px;
-    width: 100%;
   }
+  .header_search {
+    max-width: 75vw;
+    display: flex;
+    margin-left: 60px;
+  }
+
   nav li {
     font-size: 22px;
     padding: 30px 50px;
