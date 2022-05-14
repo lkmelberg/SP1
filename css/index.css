@@ -16,7 +16,7 @@
 @media screen and (min-width: 700px) {
   .home {
     background-image: url("../images/images_dt/index_bg_dt.jpg");
-    background-position-x: top;
+    background-position-x: center;
     min-height: 100vh;
   }
   .home_cta {
