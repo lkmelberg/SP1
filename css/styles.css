@@ -401,10 +401,7 @@ nav a:hover {
 }
 /* search */
 .fa-magnifying-glass {
-  color: #d2f0fa;
-  font-size: 12px;
-  position: absolute;
-  margin: 16px 0px 0px 120px;
+  display: none;
 }
 ::placeholder {
   font-family: "helvetica", sans-serif;
