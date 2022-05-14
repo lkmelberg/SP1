@@ -109,7 +109,7 @@ body {
   font-size: 15vw;
 }
 .ticket_text {
-  color: #d2f0fa;
+  color: #ff82a5;
   display: none;
 }
 
@@ -381,4 +381,38 @@ nav .current {
   border-radius: 10px;
   display: flex;
   max-width: 100%;
+}
+
+/* bonus */
+
+/* hover */
+.button:hover {
+  border-color: #d2f0fa;
+  color: #d2f0fa;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #ff82a5;
+}
+.directory a:hover {
+  border-bottom: 2px solid #ff82a5;
+}
+/* search */
+.fa-magnifying-glass {
+  color: #d2f0fa;
+  font-size: 12px;
+  position: absolute;
+  margin: 16px 0px 0px 120px;
+}
+::placeholder {
+  font-family: "helvetica", sans-serif;
+  font-size: 15px;
+  color: #d2f0fa;
+  text-align: start;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+.header_search input:focus {
+  color: #ff82a5;
+  align-items: left;
 }
