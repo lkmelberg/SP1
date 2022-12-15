@@ -9,6 +9,10 @@ Design principles
 Communication technology
 Development with HTML and CSS
 
+## Live website
+
+https://magenta-beignet-274303.netlify.app/
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
